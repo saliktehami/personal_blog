@@ -2,7 +2,6 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
-import NewsletterForm from 'pliny/ui/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
@@ -10,23 +9,14 @@ export default function Home({ posts }) {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pb-8 pt-16 md:space-y-5">
-        <div className="flex flex-col items-start justify-between md:flex-row">
-          <div className="space-y-4 md:w-2/3 md:pr-8">
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Hey, I'm {siteMetadata.author}
-            </h1>
-            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-              Welcome! I'm a MD/MBA candidate with a background in management consulting. Join me as
-              I dive deep into the healthcare business ecosystem, exploring topics like hospital
-              management, pharmaceutical industries, and the impact of legislation. In my free time,
-              I enjoy developing side projects and sharing my learnings here. Happy reading!
-            </p>
-          </div>
-          {siteMetadata.newsletter?.provider && (
-            <div className="mt-8 w-full pt-4 md:mt-0 md:w-1/3 md:pt-8">
-              <NewsletterForm title="Subscribe to the newsletter" />
-            </div>
-          )}
+        <div className="flex flex-col items-start">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 mb-4">
+            Hey, I'm {siteMetadata.author}
+          </h1>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            Hey there! I'm Salik, your guide through the labyrinth of healthcare business. As an MD/MBA candidate with a stint in management consulting, I'm on a mission to decode the complexities of our healthcare system.
+Curious about how hospitals tick, what drives pharma innovation, or how the latest legislation reshapes patient care? You're in the right place! Join me as I unpack these topics and more, sharing insights and sparking discussions.
+          </p>
         </div>
       </div>
 

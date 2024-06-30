@@ -18,6 +18,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com/saliktehami',
   linkedin: 'https://www.linkedin.com/in/saliktehami',
+  substack: 'https://saliktehami.substack.com/',
   // threads: 'https://www.threads.net',
   // instagram: 'https://www.instagram.com',
   locale: 'en-US',
@@ -46,7 +47,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'convertkit',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
