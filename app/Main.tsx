@@ -9,14 +9,19 @@ export default function Home({ posts }) {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pb-8 pt-16 md:space-y-5">
-        <div className="flex flex-col items-start">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 mb-4">
-            Hey, I'm {siteMetadata.author}
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Hey there! I'm Salik, your guide through the labyrinth of healthcare business. As an MD/MBA candidate with a stint in management consulting, I'm on a mission to decode the complexities of our healthcare system.
-Curious about how hospitals tick, what drives pharma innovation, or how the latest legislation reshapes patient care? You're in the right place! Join me as I unpack these topics and more, sharing insights and sparking discussions.
-          </p>
+        <div className="flex flex-col items-start justify-between md:flex-row">
+          <div className="w-full space-y-4 md:pr-8">
+            <h1 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-1">
+              Hey, I'm {siteMetadata.author}
+            </h1>
+            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              MD/MBA candidate with a stint in management consulting, I'm on a mission to decode the
+              complexities of our healthcare system. Curious about how hospitals tick, what drives
+              pharma innovation, or how the latest legislation reshapes patient care? You're in the
+              right place! Join me as I unpack these topics and more, sharing insights and sparking
+              conversations along the way.
+            </p>
+          </div>
         </div>
       </div>
 
