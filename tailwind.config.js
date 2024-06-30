@@ -22,8 +22,8 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-  sans: ['Helvetica Neue', ...fontFamily.sans],
-},
+        sans: ['Helvetica Neue', ...fontFamily.sans],
+      },
       colors: {
         primary: colors.pink,
         gray: colors.gray,
