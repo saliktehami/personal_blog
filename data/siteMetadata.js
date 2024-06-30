@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Salik Tehami | Profit Vitals',
-  author: 'Salik Tehami',
+  author: 'Salik',
   headerTitle: 'Profit Vitals | Healtcare Business Blog',
   description: 'Thinkings and Musings on Healthcare Business',
   language: 'en-us',

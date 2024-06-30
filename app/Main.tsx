@@ -11,7 +11,7 @@ export default function Home({ posts }) {
       <div className="space-y-2 pb-8 pt-16 md:space-y-5">
         <div className="flex flex-col items-start justify-between md:flex-row">
           <div className="w-full space-y-4 md:pr-8">
-            <h1 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-1">
+            <h1 className="md:leading-1 mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl">
               Hey, I'm {siteMetadata.author}
             </h1>
             <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
